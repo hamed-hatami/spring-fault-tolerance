@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "9409f893-c3aa-4ad6-89df-d47a1c0399f2",
+		"name": "spring-fault-tolerance",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4103118"
+	},
+	"item": [
+		{
+			"name": "retry",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/retry",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"retry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "circuitBreaker",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/circuitBreaker",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"circuitBreaker"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
